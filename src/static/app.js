@@ -176,6 +176,8 @@ document.addEventListener("DOMContentLoaded", () => {
       messageDiv.className = "error";
       messageDiv.classList.remove("hidden");
       console.error("Error unregistering participant:", error);
+    } finally {
+      deleteButton.disabled = false;
     }
   });
 
