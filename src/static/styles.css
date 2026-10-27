@@ -149,7 +149,7 @@ section h3 {
 
 .participants-empty {
   margin-bottom: 0 !important;
-  color: #73798a;
+  color: #555;
   font-size: 0.88rem;
   font-style: italic;
 }
